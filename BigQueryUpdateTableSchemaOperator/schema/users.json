@@ -1,0 +1,32 @@
+[
+  {
+    "name": "id",
+    "type": "INT64"
+  },
+  {
+    "name": "name",
+    "policyTags": {
+      "names": [
+        "projects/{project-id}/locations/{location}/taxonomies/{taxonomy-id}/policyTags/{policytag-id}"
+      ]
+    },
+    "type": "STRING"
+  },
+  {
+    "name": "email",
+    "policyTags": {
+      "names": [
+        "projects/{project-id}/locations/{location}/taxonomies/{taxonomy-id}/policyTags/{policytag-id}"
+      ]
+    },
+    "type": "STRING"
+  },
+  {
+    "name": "created_at",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "updated_at",
+    "type": "TIMESTAMP"
+  }
+]
