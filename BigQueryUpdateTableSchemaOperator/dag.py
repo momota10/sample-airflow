@@ -3,8 +3,6 @@ import json
 from typing import List
 from datetime import datetime
 from airflow import DAG
-from airflow.models import Variable
-from airflow.providers.amazon.aws.operators.ecs import EcsOperator
 from airflow.providers.google.cloud.operators.bigquery import BigQueryUpdateTableSchemaOperator
 
 DAG_NAME = "update_table_schema"
